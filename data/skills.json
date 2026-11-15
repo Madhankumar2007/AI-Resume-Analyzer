@@ -1,0 +1,45 @@
+{
+    "Programming Languages": [
+        "Python",
+        "Java",
+        "C",
+        "C++",
+        "JavaScript",
+        "PHP"
+    ],
+    "Web Technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Angular",
+        "Node.js",
+        "Flask",
+        "Django"
+    ],
+    "Databases": [
+        "MySQL",
+        "MongoDB",
+        "PostgreSQL",
+        "SQLite",
+        "Oracle"
+    ],
+    "AI and Machine Learning": [
+        "Machine Learning",
+        "Deep Learning",
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn",
+        "EasyOCR",
+        "Sentence-BERT",
+        "ResNet18",
+        "NLP"
+    ],
+    "Developer Tools": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Docker",
+        "Jupyter Notebook"
+    ]
+}

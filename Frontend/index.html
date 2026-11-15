@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">ResumeAI</div>
+        <div class="nav-text">Smart Career Assistant</div>
+    </nav>
+
+    <!-- Main Section -->
+    <main class="container">
+
+        <div class="hero">
+            <h1>AI-Powered Resume Analyzer</h1>
+            <p>
+                Analyze your resume, identify skill gaps,
+                and improve your career opportunities.
+            </p>
+        </div>
+
+        <!-- Resume Upload Section -->
+        <section class="card">
+
+            <h2>Upload Your Resume</h2>
+
+            <input
+                type="file"
+                id="resume"
+                accept=".pdf"
+            >
+
+            <h2>Enter Job Description</h2>
+
+            <textarea
+                id="jobDescription"
+                placeholder="Paste your job description here..."
+            ></textarea>
+
+            <button id="analyzeBtn">
+                Analyze Resume
+            </button>
+
+        </section>
+
+        <!-- Results Section -->
+        <section class="card results">
+
+            <h2>Analysis Results</h2>
+
+            <div id="output">
+                Your analysis results will appear here.
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>AI Resume Analyzer | Developed with Python and Machine Learning</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
